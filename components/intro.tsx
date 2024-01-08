@@ -61,7 +61,7 @@ export default function Intro() {
       </motion.p>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -79,7 +79,9 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2
-          rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer"
+          rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
+          href="/CV.pdf"
+          download
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-x-1 transition " />
@@ -87,13 +89,17 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2
-          rounded-full"
+          rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
+          href="https://www.linkedin.com/in/willian-puga-ba4924152/"
+          target="_blank"
         >
           <BsLinkedin />
         </a>
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2
-          text-[1.35rem] rounded-full"
+          text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
+          href="https://github.com/dev-puga"
+          target="_blank"
         >
           <FaGithubSquare />
         </a>
