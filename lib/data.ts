@@ -18,6 +18,10 @@ export const links = [
     hash: "#skills",
   },
   {
+    name: "Projects",
+    hash: "#projects",
+  },
+  {
     name: "Experience",
     hash: "#experience",
   },
@@ -25,7 +29,7 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
-]
+] as const
 
 export const experiencesData = [
   {
