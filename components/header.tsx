@@ -6,7 +6,8 @@ import clsx from "clsx";
 import useActiveSection from "@/hooks/useActiveSection";
 
 export default function Header() {
-  const { activeSection, setActiveSection } = useActiveSection();
+  const { activeSection, setActiveSection, setTimeLastClick } =
+    useActiveSection();
   return (
     <header className="z-[999] relative">
       <motion.div
@@ -31,7 +32,10 @@ export default function Header() {
                     "text-gray-950": activeSection === link.name,
                   }
                 )}
-                onClick={() => setActiveSection(link.name)}
+                onClick={() => {
+                  setActiveSection(link.name);
+                  setTimeLastClick(Date.now());
+                }}
               >
                 {link.name}
                 {link.name === activeSection && (
