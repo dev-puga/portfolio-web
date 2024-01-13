@@ -13,7 +13,7 @@ export default function useSectionInView(sectionName: SectionName) {
   
     useEffect(() => {
       if (inView && Date.now() - timeLastClick > 1000) {
-        setActiveSection('Home');
+        setActiveSection(sectionName);
       }
     }, [inView, timeLastClick, setActiveSection, sectionName]);
 

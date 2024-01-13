@@ -81,4 +81,4 @@ export const skillsData = [
   "Express",
   "Ruby on Rails",
   "PostgreSQL",
-]
+] as const
