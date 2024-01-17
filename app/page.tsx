@@ -1,8 +1,8 @@
 import About from "@/components/about";
+import Experience from "@/components/experience";
 import Intro from "@/components/intro";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <SectionDivider />
       <About />
       <Skills />
+      <Experience />
     </main>
   );
 }
