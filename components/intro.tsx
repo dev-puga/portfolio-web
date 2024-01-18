@@ -85,7 +85,7 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2
+          className="group bg-white/10 px-7 py-3 flex items-center gap-2
           rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
           href="/CV.pdf"
           download
@@ -95,7 +95,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2
+          className="bg-white/10 text-white/60 flex items-center gap-2
           rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
           href="https://www.linkedin.com/in/willian-puga-ba4924152/"
           target="_blank"
@@ -103,7 +103,7 @@ export default function Intro() {
           <BsLinkedin />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2
+          className="bg-white/10 text-white/60 flex items-center gap-2
           text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
           href="https://github.com/dev-puga"
           target="_blank"
