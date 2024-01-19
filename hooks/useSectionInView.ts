@@ -3,10 +3,6 @@ import useActiveSection from "./useActiveSection";
 import { useEffect } from "react";
 import { SectionName } from "@/lib/types";
 
-type SectionNameProps = {
-    sectionName: SectionName
-}
-
 export default function useSectionInView(sectionName: SectionName) {
     const { ref, inView } = useInView({ threshold: 0.75 });
     const { setActiveSection, timeLastClick } = useActiveSection();

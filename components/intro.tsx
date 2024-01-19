@@ -6,6 +6,7 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import useSectionInView from "@/hooks/useSectionInView";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home");
@@ -63,8 +64,23 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Willian.</span> I'm a{" "}
         <span className="font-bold">Software developer</span> with{" "}
         <span className="font-bold">4 years</span> of experience. I enjoy
-        building <span className="italic">web and mobile apps</span>. My focus
-        is <span className="underline">React and NodeJs</span>.
+        building <span className="italic">web and mobile apps</span>. My
+        expertise spans across
+        <TypeAnimation
+          sequence={[
+            // Same substring at the start will only be typed out once, initially
+            " React",
+            1000, // wait 1s before replacing "Mice" with "Hamsters"
+            " NodeJS",
+            1000,
+            " Ruby.",
+            5000,
+          ]}
+          wrapper="span"
+          speed={10}
+          repeat={Infinity}
+          style={{ fontWeight: "bold" }}
+        />
       </motion.h1>
 
       <motion.div
@@ -87,7 +103,7 @@ export default function Intro() {
         <a
           className="group bg-white/10 px-7 py-3 flex items-center gap-2
           rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
-          href="/CV.pdf"
+          href="/WillianPuga.pdf"
           download
         >
           Download CV{" "}

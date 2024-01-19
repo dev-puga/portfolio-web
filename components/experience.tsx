@@ -23,7 +23,7 @@ export default function Experience() {
       id="experience"
       className="mb-28 max-w-[70rem] text-center leading-8 sm:mb-40 scroll-mt-28"
     >
-      <SectionHeading>My experience</SectionHeading>
+      <SectionHeading>My experiences</SectionHeading>
       <VerticalTimeline animate={false} lineColor="rgba(255, 255, 255, 0.05)">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
@@ -31,7 +31,7 @@ export default function Experience() {
               contentStyle={{
                 background: "rgba(255, 255, 255, 0.05)",
                 boxShadow: "none",
-                border: "1px solid rgba(0, 0, 0, 0.05)",
+                border: "2px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
                 padding: "1.3rem 2rem",
               }}
