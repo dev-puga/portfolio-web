@@ -67,15 +67,7 @@ export default function Intro() {
         building <span className="italic">web and mobile apps</span>. My
         expertise spans across
         <TypeAnimation
-          sequence={[
-            // Same substring at the start will only be typed out once, initially
-            " React",
-            1000, // wait 1s before replacing "Mice" with "Hamsters"
-            " NodeJS",
-            1000,
-            " Ruby.",
-            5000,
-          ]}
+          sequence={[" React", 1000, " NodeJS", 1000, " Ruby.", 5000]}
           wrapper="span"
           speed={10}
           repeat={Infinity}
