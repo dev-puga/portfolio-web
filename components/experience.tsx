@@ -12,7 +12,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { motion } from "framer-motion";
 
 export default function Experience() {
-  const { ref } = useSectionInView("Experience");
+  const { ref } = useSectionInView("Experience", 0.3);
 
   return (
     <motion.section
@@ -21,7 +21,7 @@ export default function Experience() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="experience"
-      className="mb-28 max-w-[70rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[70rem] text-center sm:mb-40 scroll-mt-29"
     >
       <SectionHeading>My Experiences</SectionHeading>
       <VerticalTimeline animate={false} lineColor="rgba(255, 255, 255, 0.05)">

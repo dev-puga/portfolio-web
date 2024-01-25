@@ -9,7 +9,7 @@ import useSectionInView from "@/hooks/useSectionInView";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home");
+  const { ref } = useSectionInView("Home", 0.5);
 
   return (
     <section

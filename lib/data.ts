@@ -33,21 +33,23 @@ export const experiencesData = [
   {
     title: "Front-End Developer JR",
     location: "Rio Claro, BR",
-    description: "Developed the interface for a sales portal targeting large companies in the ceramics industry, resulting in an intuitive and engaging user experience. Worked closely with clients to understand and meet their needs, delivering customized and high-value solutions. Utilized BitBucket for code versioning and Docker to ensure a consistent development environment",
+    description: 
+    "Developed the interface for a sales portal targeting large companies in the ceramics industry, resulting in an intuitive and engaging user experience. Worked closely with clients to understand and meet their needs, delivering customized and high-value solutions. Utilized BitBucket for code versioning and Docker to ensure a consistent development environment.",
     icon: React.createElement(FaReact),
     date: "2020 - 2021",
   },
   {
     title: "Front-End Developer PL",
     location: "Piracicaba, BR",
-    description:"Developed responsive and performant interfaces for Pecege products, ensuring an exceptional user experience. Collaborated with multidisciplinary teams using Agile methodologies and Azure DevOps for task definition and refinement. Implemented new features following Git Flow and conducted Code Reviews to ensure code quality",
+    description:"Developed responsive and performant interfaces for Pecege products, ensuring an exceptional user experience. Collaborated with multidisciplinary teams using Agile methodologies and Azure DevOps for task definition and refinement. Implemented new features following Git Flow and conducted Code Reviews to ensure code quality.",
     icon: React.createElement(FaReact),
     date: "2021 - 2023",
   },
   {
     title: "Full-Stack Developer",
     location: "Rio Claro, BR",
-    description: "I work in frontend development using React and TypeScript, creating responsive and optimized interfaces. I also engage in backend development with Node.js and PostgreSQL database. I consistently collaborate with teams to ensure seamless integration between frontend and backend. Additionally, I perform maintenance and enhancement of legacy systems in Delphi, identifying and addressing issues",
+    description: 
+    "I work in frontend development using React and TypeScript, creating responsive and optimized interfaces. I also engage in backend development with Node.js and PostgreSQL database. I consistently collaborate with teams to ensure seamless integration between frontend and backend. Additionally, I perform maintenance and enhancement of legacy systems in Delphi, identifying and addressing issues.",
     icon: React.createElement(FaNodeJs),
     date: "2023 - present",
   },
